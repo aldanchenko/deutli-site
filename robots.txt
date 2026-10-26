@@ -1,0 +1,7 @@
+# Crawlers read robots.txt only at the root of a host, so this file starts
+# to count once the site has its own domain (deutli.app). Until then the
+# sitemap is submitted in Google Search Console by hand.
+User-agent: *
+Allow: /
+
+Sitemap: https://aldanchenko.github.io/deutli-site/sitemap.xml
